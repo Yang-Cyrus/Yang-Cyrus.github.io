@@ -1,4 +1,4 @@
-# greece · 仍在成为
+# Cyrus Yang · 仍在成为
 
 个人学习记录与项目实践。网站：https://yang-cyrus.github.io/
 
