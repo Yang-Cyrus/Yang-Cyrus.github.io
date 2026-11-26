@@ -2,7 +2,7 @@
   {
     "name": "UNO_DHT11_OLED",
     "description": "Arduino Uno 温湿度与 OLED 显示课程项目。",
-    "html_url": "https://github.com/Ygreece/UNO_DHT11_OLED",
+    "html_url": "https://github.com/Yang-Cyrus/UNO_DHT11_OLED",
     "homepage": null,
     "language": "C++",
     "topics": [],
@@ -12,7 +12,7 @@
   {
     "name": "xian-highspeed-rail",
     "description": "西安高铁主题网页项目。",
-    "html_url": "https://github.com/Ygreece/xian-highspeed-rail",
+    "html_url": "https://github.com/Yang-Cyrus/xian-highspeed-rail",
     "homepage": null,
     "language": "HTML",
     "topics": [],
@@ -22,7 +22,7 @@
   {
     "name": "motor-pwm-controller",
     "description": "电子设计综合实验：直流电机转速检测与脉宽调速器。",
-    "html_url": "https://github.com/Ygreece/motor-pwm-controller",
+    "html_url": "https://github.com/Yang-Cyrus/motor-pwm-controller",
     "homepage": null,
     "language": null,
     "topics": [],
@@ -32,7 +32,7 @@
   {
     "name": "world-cup-2026",
     "description": "FIFA World Cup 2026 主题网页。",
-    "html_url": "https://github.com/Ygreece/world-cup-2026",
+    "html_url": "https://github.com/Yang-Cyrus/world-cup-2026",
     "homepage": null,
     "language": "HTML",
     "topics": [],
@@ -42,7 +42,7 @@
   {
     "name": "linux-c-learning",
     "description": "Linux C 学习项目集，包含内存池、日志系统、Web 服务器等项目。",
-    "html_url": "https://github.com/Ygreece/linux-c-learning",
+    "html_url": "https://github.com/Yang-Cyrus/linux-c-learning",
     "homepage": null,
     "language": "C",
     "topics": [],

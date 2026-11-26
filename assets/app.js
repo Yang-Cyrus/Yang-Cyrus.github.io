@@ -31,15 +31,15 @@ async function refreshRepos(){
   refreshButton.disabled=true;
   const status=document.querySelector('#repo-status');status.textContent='正在获取最新公开项目…';
   try{
-    const response=await fetch('https://api.github.com/users/Ygreece/repos?sort=updated&per_page=100',{signal:AbortSignal.timeout(10000)});
+    const response=await fetch('https://api.github.com/users/Yang-Cyrus/repos?sort=updated&per_page=100',{signal:AbortSignal.timeout(10000)});
     if(!response.ok)throw Error('GitHub unavailable');
     const all=await response.json();if(!Array.isArray(all))throw Error('Invalid response');
-    const repos=all.filter(r=>!r.fork&&r.name.toLowerCase()!=='ygreece.github.io').slice(0,12);
+    const repos=all.filter(r=>!r.fork&&r.name.toLowerCase()!=='yang-cyrus.github.io').slice(0,12);
     if(!repos.length){status.textContent='暂未找到可展示的公开项目，保留仓库记录。';return;}
     const list=document.querySelector('#repo-list');list.replaceChildren();
     for(const repo of repos){
       // Only accept this account's canonical public GitHub links.
-      if(!/^https:\/\/github\.com\/Ygreece\/[^/?#]+$/i.test(repo.html_url))continue;
+      if(!/^https:\/\/github\.com\/Yang-Cyrus\/[^/?#]+$/i.test(repo.html_url))continue;
       const a=document.createElement('a');a.className='repo-row';a.href=repo.html_url;
       const details=document.createElement('div'),h=document.createElement('h2'),p=document.createElement('p'),meta=document.createElement('span'),date=document.createElement('small');
       h.textContent=repo.name+' ↗';p.textContent=repo.description||'代码与学习记录。';meta.className='repo-meta';meta.textContent=repo.language||'PROJECT';date.textContent=String(repo.updated_at).slice(0,10);meta.append(date);details.append(h,p);a.append(details,meta);list.append(a);

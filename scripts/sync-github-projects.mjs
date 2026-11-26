@@ -1,6 +1,6 @@
 import { writeFile } from "node:fs/promises";
 
-const owner = "Ygreece";
+const owner = "Yang-Cyrus";
 const siteRepository = `${owner}.github.io`.toLowerCase();
 const response = await fetch(`https://api.github.com/users/${owner}/repos?per_page=100&sort=updated`, {
   headers: {

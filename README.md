@@ -1,6 +1,6 @@
 # greece · 仍在成为
 
-个人学习记录与项目实践。网站：https://ygreece.github.io/
+个人学习记录与项目实践。网站：https://yang-cyrus.github.io/
 
 ## 编辑与生成
 
